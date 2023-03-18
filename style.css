@@ -21,7 +21,7 @@ h1 {
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #555;
 }
 
@@ -33,11 +33,7 @@ p {
 .left, .right {
   width: 20%;
 }
-.right-text {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
+
 .main {
   width: 60%;
 }
@@ -87,3 +83,35 @@ background-size: cover;
     background-color: #52bebe;
     border-color: #8ad3d3
 }
+.project-summary {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  width: 80%; 
+  max-width: 800px; 
+  margin: auto; 
+  margin-top: 50px; 
+  margin-bottom: 50px; 
+  border: 1px solid#880088;
+}
+
+
+footer {
+  background-color: #f2f2f2;
+  color: #666;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+
